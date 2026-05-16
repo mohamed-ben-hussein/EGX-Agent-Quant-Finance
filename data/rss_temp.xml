@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Mubasher.info">
+    <meta name="description" content="ÙØ¨Ø§Ø´Ø± ÙÙÙØ¹ ÙØºØ·Ù Ø³ÙÙ Ø§ÙØ¨ÙØ±ØµØ© ÙØ§ÙØ§Ø³ÙÙ ÙÙÙÙØ± Ø§Ø­Ø¯Ø« Ø§Ø±ÙØ§Ù Ø³ÙÙ Ø§ÙÙØ§Ù ÙÙØ¤Ø´Ø±Ø§Øª Ø§ÙØ¨ÙØ±ØµØ© Ø§ÙÙØ­ÙÙØ© ÙØ§ÙØ¹Ø§ÙÙÙØ© Ø¨Ø§ÙØ§Ø¶Ø§ÙØ© Ø§ÙÙ Ø§Ø®Ø¨Ø§Ø± Ø§ÙØªØªØ§Ø¨ Ø§ÙØ´Ø±ÙØ§Øª">
+   
+    <link rel="shortcut icon" href="/error/assets/img/favicon.png">
+
+    <title>ÙØ¹ÙÙÙØ§Øª ÙØ¨Ø§Ø´Ø± </title>
+
+    <!-- Bootstrap -->
+    <link href="/error/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/error/assets/css/font-awesome.css" rel="stylesheet">
+    <link href="/error/assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="/error/assets/css/animations.css">
+
+    <!-- siimple style -->
+    <link href="/error/assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="chart floating">
+        <img src="/error/assets/img/chart.png" alt="Mubasher Info">
+    </div>
+
+    <div class="chart pos1 fliped floating">
+        <img src="/error/assets/img/chart.png" alt="Mubasher Info">
+    </div>
+
+    <div class="chart pos2 floating">
+        <img src="/error/assets/img/chart.png" alt="Mubasher Info">
+    </div>
+
+    <div class="chart pos3 fliped floating">
+        <img src="/error/assets/img/chart.png" alt="Mubasher Info">
+    </div>
+
+
+    <div id="wrapper" class="error404">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <img src="/error/assets/img/logo.png" alt="Mubasher Info Logo">
+                    <br/>
+                    <br/>
+                    <h2 class="subtitle">ÙØ¹ØªØ°Ø± Ø¹Ù Ø§ÙØ¥Ø²Ø¹Ø§Ø¬Ø ÙØ­Ù ÙÙÙÙ Ø¨ØªØ­Ø¯ÙØ« Ø§ÙÙÙÙØ¹ ÙØ³ÙØ¹ÙØ¯ Ø®ÙØ§Ù Ø¯ÙØ§Ø¦Ù. </h2>
+                    <br/>
+                    
+                    <a class="btn btn-info" href="/" role="button">Ø§ÙØ±Ø¬ÙØ¹ ÙÙØµÙØ­Ø© Ø§ÙØ±Ø¦ÙØ³ÙØ©</a>
+
+                    
+                   
+                    <br/>
+                </div>
+                <div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/Mubasher.Info" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/mubasher_info" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        
+                        <li><a href="https://www.linkedin.com/company/1477149" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                        </li>
+
+                        <li><a href="https://www.youtube.com/channel/UC7hnxb7gD4nKZdZk3ZlZCYg" class="icoyoutube" title="YouTube"><i class="fa fa-youtube"></i></a>
+                        </li>
+                         <li><a href="/news/rss" class="icoRss" title="RSS"><i class="fa fa-rss"></i></a>
+                        </li>
+                         <li><a href="https://play.google.com/store/apps/details?id=net.mis.mubasherinfo" class="icoandroid" title="AndroidAPP"><i class="fa fa-android"></i></a>
+                        <li><a href="https://itunes.apple.com/app/imubasher/id494539772?mt=8" class="icoapple" title="AppleAPP"><i class="fa fa-apple"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p class="copyright">Ø¬ÙÙØ¹ Ø§ÙØ­ÙÙÙ ØªØ¹ÙØ¯ ÙØ´Ø±ÙØ© ÙØ¨Ø§Ø´Ø± Ø§ÙØ¹Ø§ÙÙÙØ© Â© 2005 - 2017 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        
+$(document).ready( function () {
+    $('#wrapper').height($(document).height());
+});
+    </script>
+
+</body>
+
+</html>

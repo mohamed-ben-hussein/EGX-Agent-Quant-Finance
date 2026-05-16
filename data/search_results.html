@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="ar"><head>
+  <title>تسجيل الدخول</title>
+  <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+  <meta content="upgrade-insecure-requests" http-equiv="Content-Security-Policy">
+  <meta content="Go9_ScOtvxAH75gE9uqjVxFul_Q" name="alexaVerifyID">
+  <meta content="328196127322541" property="fb:app_id">
+  <meta content="@mubasher_info" name="twitter:site">
+  <meta content="494539772" name="twitter:app:id:iphone">
+  
+  <meta content="AAIB, Banking, Visa, Visa Signature, Online Shopping, Cashback, Credit Card, Credit Card Offers, Banking Offers, Online Purchase, Buy Online, بنوك, عائد, استثمار, بنك, ادخار, حساب, رمز, فلوس, نقود , مال , تجارة , فتح , ربح , اتمان , مكسب, جنية, دولار, إسترليني ,ذهب, وديعة, كارت, كروت, قرض, قروض, شركة, شركات, شغل, شهادات, شهاده, فوائد, فائده, نسبه, مئوية, حساب, ارصدة, ماكينة, صراف , صرف, الي, رصيد, مرتب, بيع, شراء, تكنولوجيا مالية, صناديق سيادية, اقتصاد أخضر, طاقة متجددة, أسواق ناشئة, مشروعات قومية, اكتتابات, تعدين, نفط, ريادة أعمال, عملات مشفرة ورقمية, اقتصاد غير نفطي, توطين, سيارات, تجارة الكترونية, اتصالات, تكنولوجيا, ترفيه, تمويل, معادن, أسعار الذهب, سفر وسياحة, أسعار العملات, صناعة, تجارة, رؤية 2030, استثمار, بنية تحتية, طروحات, إسكان, كهرباء, بتروكيماويات, مدن الجديدة, تغير مناخي, نقل وملاحة, جمارك, طيران, بورصة السلع, تأمين" name="keywords">
+
+  <link href="/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+  <link href="/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+  <link href="/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+  <link href="/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+  <link href="/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+  <link href="/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+  <link href="/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+  <link href="/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+  <link href="/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/favicon-32x32.svg" rel="icon" sizes="32x32" type="image/png">
+  <link href="/favicon-194x194.png" rel="icon" sizes="194x194" type="image/png">
+  <link href="/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+  <link href="/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
+  <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/manifest.json" rel="manifest">
+  <meta content="#00aba9" name="msapplication-TileColor">
+  <meta content="/mstile-144x144.png" name="msapplication-TileImage">
+  <meta content="#ffffff" name="theme-color">
+  <style>
+    .mi-account-content {
+      max-width: 100% !important;
+      margin: auto !important;
+      height: 100vh !important;
+    }
+    .aries_stage.aries_horizontalAxis.aries_safeZone {
+      display: none !important;
+    }
+    .mi-content {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    body {
+      margin: 0 !important;
+      height: 96vh;
+    }
+    body::-webkit-scrollbar {
+      display: none;
+    }
+    iframe#loginIframe {
+      width: 100%;
+      margin: 0;
+      height: 102vh;
+    }
+
+  </style>
+
+  <script>
+    function getCookie(name) {
+      let cookieArr = document.cookie.split(";");
+      for (let i = 0; i < cookieArr.length; i++) {
+        let cookie = cookieArr[i].trim();
+        if (cookie.startsWith(name + "=")) {
+          return cookie.substring(name.length + 1);
+        }
+      }
+      return null;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const language = document.documentElement.lang;
+      const isCountryCode = getCookie('selected_country');
+      const currentUrl = window.location.href;
+      const baseUrl = window.location.origin;
+      var newUrl = '';
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('page')) {
+        const page = urlParams.get('page');
+
+        newUrl = `${baseUrl}/${page}`;
+
+        // Update the browser's address bar without reloading the page
+        window.history.pushState({}, '', newUrl);
+      }
+      let targetUrl = {
+        'https://www1.mubasher.info': 'https://community1.mubasher.info',
+        'https://english1.mubasher.info': 'https://community1-en.mubasher.info',
+        'https://www.mubasher.info': 'https://community.mubasher.info',
+        'https://english.mubasher.info': 'https://community-en.mubasher.info'
+      }[window.location.origin] || 'https://community1.mubasher.info';
+
+      let arabicToEnglishDomainMappings = {
+        'https://www1.mubasher.info': 'https://english1.mubasher.info',
+        'https://english1.mubasher.info':'https://www1.mubasher.info',
+        'https://www.mubasher.info': 'https://english.mubasher.info',
+        'https://english.mubasher.info': 'https://www.mubasher.info',
+      };
+
+
+
+      var iframe = document.querySelector("#loginIframe");
+      if (iframe) {
+        iframe.src = targetUrl +  (newUrl ? '/auth/signup' + ('?visitFromIframe=true') : '/login?country=' + (isCountryCode ? isCountryCode.toLowerCase() : 'sa') + ('&visitFromIframe=true'));
+      } else {
+        console.error("Iframe not found!");
+      }
+
+      window.addEventListener('message', function (event) {
+        if (event.origin === targetUrl) {
+          const data = event.data;
+          if (data.type === 'LOGIN_SUCCESS') {
+            if (data.type === 'LOGIN_SUCCESS' && data.userData.code !== 'eg' && data.userData.state !== 1) {
+              window.location.href = targetUrl;
+            } else if (data.type === 'LOGIN_SUCCESS' && data.userData.code !== 'eg' && data.userData.state === 1) {
+              window.location.href = targetUrl + '/?state=1';
+            } else if (data.type === 'LOGIN_SUCCESS' && data.userData.code === 'eg') {
+              window.location.href = baseUrl + '/countries/eg';
+            }
+          } else if (data.type ==='LANG_CHANGE_SUCCESS') {
+            if (data.lang !== language) {
+                window.location.href = arabicToEnglishDomainMappings[baseUrl] + '/login' || 'https://www.mubasher.info/login';
+            }
+          }
+        }
+      });
+    });
+  </script>
+
+</head>
+<body>
+<iframe height="100%" id="loginIframe" src="https://community.mubasher.info/login?country=eg&amp;visitFromIframe=true" width="100%"></iframe>
+
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;c11f671cecd7428f9e7afd735cd32a35&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+</body></html>

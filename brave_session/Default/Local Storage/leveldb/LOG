@@ -1,0 +1,6 @@
+2026/05/16-14:25:36.689 82cc Reusing MANIFEST c:\Users\Hady\EGX-Agent\brave_session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/16-14:25:36.698 82cc Recovering log #4
+2026/05/16-14:25:36.723 82cc Reusing old log c:\Users\Hady\EGX-Agent\brave_session\Default\Local Storage\leveldb/000004.log 
+2026/05/16-14:47:42.523 8f94 Level-0 table #8: started
+2026/05/16-14:47:42.553 8f94 Level-0 table #8: 10788 bytes OK
+2026/05/16-14:47:42.578 8f94 Delete type=0 #4

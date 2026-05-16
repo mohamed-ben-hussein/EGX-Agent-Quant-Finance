@@ -1,0 +1,4 @@
+# requirements.txt
+
+playwright
+requests
