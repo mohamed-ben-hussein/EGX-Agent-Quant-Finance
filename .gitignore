@@ -1,0 +1,77 @@
+# ============================================================
+#  EGX-Agent — .gitignore
+#  النظام: Windows / Python 3.14
+# ============================================================
+
+# --- بيانات سرية (لا ترفعها أبدًا) ---
+.env
+user_data.py
+
+# --- ملفات Python المؤقتة ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# --- ملفات التشغيل والبيئة ---
+.venv/
+venv/
+env/
+.Python
+
+# --- ملفات Debug والبيانات المؤقتة ---
+data/*.html
+data/*.png
+data/*.xml
+data/*.jpg
+data/rss_*.xml
+data/*_debug*
+data/login_*
+data/search_*
+data/silent_*
+data/after_*
+data/egypt_*
+data/current_*
+data/failure_*
+data/announcement*.*
+data/announcements_dump*
+
+# --- مجلد الجلسة (يحتوي على بيانات حساسة) ---
+brave_session/
+
+# --- ملفات اللوج ---
+logs/
+*.log
+overnight_process.log
+
+# --- بيانات وقت التشغيل ---
+data/egx.db-shm
+data/egx.db-wal
+
+# --- IDE ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Pytest ---
+.pytest_cache/
+.coverage
+htmlcov/
